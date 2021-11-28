@@ -1,2 +1,2 @@
-# Coding_Projects
-First basic coding projects
+# C++ Exercises
+Coding exercises from Big C++, Horstmann
