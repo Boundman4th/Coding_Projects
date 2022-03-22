@@ -2,7 +2,17 @@
 #include <stdlib.h>
 //Moroni Menk, 03/02/2022
 
-/* A courier service ships packages up to 50 pounds. Cost is determined by weight and distance shipped. Packages less than or equal to 10 pounds cost $3.00, more than 10 pounds but less than or equal to 50 pounds costs $5,00.  Shipping rates are calculated in increments of 500 miles, with an extra $10 charge per package shipped when the distance is greater than 1000 miles.
+/* Global Courier Services will ship your package based on how much it weighs and how far you are sending the package. Packages above 50 pounds will not be shipped. You need to write a program in C that calculates the shipping charge.
+
+The shipping rates are based on per 500 miles shipped.  They are not pro-rated, i.e., 600 miles is the same rate as 900 miles or 1000 miles.
+
+Here are the shipping charges -
+
+Package Weight                                                     Rate per 500 miles shipped
+
+Less than or equal to 10 pounds                                    $3.00
+More than 10 pounds but less than or equal to 50 pounds            $5.00
+If the shipping distance is more than 1000 miles, there is an additional charge of $10 per package shipped.
 */
 
 main ()
